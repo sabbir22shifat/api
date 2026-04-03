@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My API Store</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/db005482a4.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <h1>My API Store</h1>
+        <button class="btn">Sign Up</button>
+    </header>
+
+    <main>
+        <!-- highlight section -->
+         <section id="highlight-section">
+            <h2>Apple Iphone 13 Pro Max</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde mollitia sit voluptates vitae, voluptas ad ullam? Placeat necessitatibus ratione suscipit ipsum repellat blanditiis rerum accusantium similique odit quae. Pariatur, officia!</p>
+            <div id="buy-now-button">
+               <button class="btn">Buy Now</button> 
+            </div>
+        </section>
+
+        <!-- cover image section -->
+        <section id="cover-image-section">
+            <img src="./assets/cover-image.png" alt="iphone-image">
+        </section>
+
+        <!-- search-section -->
+         <section id="search-section">
+            <h2>Search Your Phone</h2>
+
+            <div id="search-container">
+                <div id="search-bar">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input id="search-input-field" type="text" placeholder="Search Your Phone"/>
+            </div>
+
+                <div id="search-button">
+                    <button onclick="handleSearch()" class="btn">Search</button>
+ 
+                </div>
+                
+            </div>
+
+         </section>
+
+         <section id="loading-section">
+            <!-- this is the loading section  -->
+            <div id="loader-animation" class="loader hidden"></div>
+            <div></div>  
+        </section>
+
+         <!-- card section  -->
+          <section id="card-section">
+                <!-- card  -->
+                <div class="card">
+                    <div class="card-image">
+                        <img src="./assets/iphone-img.png" alt="iphone-image"/>
+                    </div>
+
+                    <h3 class="card-title">Iphone 13 Pro Max</h3>
+                    <p class="card-description">
+                    There are many variations of passages of available, but the majority have suffered
+                    </p>
+            
+                <div class="card-price">
+                    <span>$</span>
+                    <span id="card-item-price">999</span>
+                    </div>
+                <div class="card-button">
+                    <button class="btn">Show Details</button>
+                </div>
+                </div>
+                <!-- card  -->
+                <div class="card">
+                    <div class="card-image">
+                        <img src="./assets/iphone-img.png" alt="iphone-image"/>
+                    </div>
+
+                    <h3 class="card-title">Iphone 13 Pro Max</h3>
+                    <p class="card-description">
+                    There are many variations of passages of available, but the majority have suffered
+                    </p>
+            
+                <div class="card-price">
+                    <span>$</span>
+                    <span id="card-item-price">999</span>
+                    </div>
+                <div class="card-button">
+                    <button class="btn">Show Details</button>
+                </div>
+                </div>
+                <!-- card  -->
+                <div class="card">
+                    <div class="card-image">
+                        <img src="./assets/iphone-img.png" alt="iphone-image"/>
+                    </div>
+
+                    <h3 class="card-title">Iphone 13 Pro Max</h3>
+                    <p class="card-description">
+                    There are many variations of passages of available, but the majority have suffered
+                    </p>
+            
+                <div class="card-price">
+                    <span>$</span>
+                    <span id="card-item-price">999</span>
+                    </div>
+                <div class="card-button">
+                    <button class="btn">Show Details</button>
+                </div>
+                </div>
+                <!-- card  -->
+                <div class="card">
+                    <div class="card-image">
+                        <img src="./assets/iphone-img.png" alt="iphone-image"/>
+                    </div>
+
+                    <h3 class="card-title">Iphone 13 Pro Max</h3>
+                    <p class="card-description">
+                    There are many variations of passages of available, but the majority have suffered
+                    </p>
+            
+                <div class="card-price">
+                    <span>$</span>
+                    <span id="card-item-price">999</span>
+                    </div>
+                <div class="card-button">
+                    <button class="btn">Show Details</button>
+                </div>
+                </div>
+                <!-- card  -->
+                <div class="card">
+                    <div class="card-image">
+                        <img src="./assets/iphone-img.png" alt="iphone-image"/>
+                    </div>
+
+                    <h3 class="card-title">Iphone 13 Pro Max</h3>
+                    <p class="card-description">
+                    There are many variations of passages of available, but the majority have suffered
+                    </p>
+            
+                <div class="card-price">
+                    <span>$</span>
+                    <span id="card-item-price">999</span>
+                    </div>
+                <div class="card-button">
+                    <button class="btn">Show Details</button>
+                </div>
+                </div>
+                <!-- card  -->
+                <div class="card">
+                    <div class="card-image">
+                        <img src="./assets/iphone-img.png" alt="iphone-image"/>
+                    </div>
+
+                    <h3 class="card-title">Iphone 13 Pro Max</h3>
+                    <p class="card-description">
+                    There are many variations of passages of available, but the majority have suffered
+                    </p>
+            
+                <div class="card-price">
+                    <span>$</span>
+                    <span id="card-item-price">999</span>
+                    </div>
+                <div class="card-button">
+                    <button class="btn">Show Details</button>
+                </div>
+                </div>
+          </section>
+    </main>  
+
+ <footer class="footer">
+    <div class="footer-container">
+
+        <div class="footer-left">
+            <h2>My API Store</h2>
+            <p>
+                Learn how to use APIs with JavaScript and build modern web
+                applications easily. This project demonstrates fetching and
+                displaying API data dynamically.
+            </p>
+        </div>
+
+        <div class="footer-links">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Phones</a></li>
+                <li><a href="#">API</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-social">
+            <h3>Follow Us</h3>
+            <div class="social-icons">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        <p>© 2026 My API Store | All Rights Reserved</p>
+    </div>
+</footer>
+
+    <script src="./js/store.js"></script>
+</body>
+</html>
+
+
+
+ 
